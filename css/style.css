@@ -1,0 +1,643 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu'; 
+}
+
+
+header{
+    display: flex;
+    background-color: #2E948A;
+    justify-content: space-between;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    }
+    
+    
+    #logo {
+    
+        background-color: #2E948A; 
+        object-fit: contain;
+        margin-left: 30px;
+    }
+    
+    .menu {
+    
+        display: flex;
+        list-style: none;
+        flex-direction: row-reverse;
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 60px;
+    }
+    
+    .menu li a {
+    
+        color: white;
+        font-weight: 700;
+        text-decoration: none;
+        font-size: 18px;
+        padding-left: 10px; 
+    
+    }
+
+    .oneblock {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 35px;
+    }
+
+    .title1 {
+    margin-top: 80px;
+    }
+
+    h1 {
+    color: #FF4081;
+    font-weight: 700;
+    font-size: 50px;
+    }
+
+    .text1 {
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 15px;
+    }
+
+    .btninicio {
+    margin-top: 20px;
+    }
+
+    .btn {
+    color: #FF4081;
+    font-size: 20px;
+    border: 2px solid #FF4081;
+    border-radius: 40px;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    }
+
+    .banner1 {
+    padding: 45px 50px 30px 0;
+    }
+
+    .twoblock {
+    display: flex;
+    background-color: #F7F7F7;
+    padding: 40px 0 40px 10px;
+    }
+
+    .banner2 {
+    object-fit: contain;
+    width: 500px;
+    height: 300px;
+            }
+
+    h2 {
+    color:#FF4081;
+    font-weight: 700;
+    text-align: center;
+    }
+
+    .text2  {
+    text-align: center;
+    padding: 10px 20px 20px 20px;
+    }
+
+    .btnblock {
+    margin-top: 20px;
+    }
+
+    .btn2 {
+    color: white;
+    font-size: 17px;
+    background-color: #FF4081;
+    border-radius: 40px;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 15px 8px 15px;
+    }
+
+    h3 {
+    color: #009688;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-left: 220px;
+    }
+
+    .threeblock {
+    margin-bottom: 80px;
+    }
+
+    .depo1 {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 220px;
+    width: 1100px;
+    }
+
+    .depo2 {
+    display: flex;
+    margin-left: 220px;
+    margin-top: 60px;
+    width: 1100px;
+    }
+
+    .banner3 {
+    margin-right: 25px;
+    margin-left: 20px;
+    }
+
+    .text3 {
+    text-align: center;
+    }
+
+    .name {
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 500;
+    }
+
+    .fourblock {
+    background-color:  #E5E5E5;
+    padding-bottom: 70px;
+    }
+
+    h4 {
+    color: #009688;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-bottom: 30px;
+    }
+
+    .conteudo {
+    display: flex;
+    margin-top: 30px;
+    }
+
+    .rectangle {
+        width: 300px;
+        height: 150px;
+        border: 1px solid  #C4C4C4;
+        background-color: #C4C4C4;
+        margin-left: 155px;
+                }
+h5 {
+color: #009688;
+font-size: 20px;
+margin-left: 155px;
+}
+
+.text4 {
+font-size: 18px;
+width: 300px;
+margin-left: 155px;
+}
+
+.lastbtn {
+margin-left: 650px;
+margin-top: 80px;
+}
+
+.btn3 {
+color: #FF4081;
+font-size: 20px;
+text-decoration: none;
+text-align: center;
+border: 1px solid #FF4081;
+border-radius: 40px;
+padding: 5px 15px 5px 15px;
+cursor: pointer;
+}
+
+footer {
+    display: flex;
+    background-color: #2E948A;
+    padding-bottom: 15px;
+    }
+    
+    #logofooter {
+        object-fit: contain;
+        width: 250px;
+        height: 120px;
+        margin-left: 40px;
+        margin-top: 10px;
+                }
+    
+    .menu-footer {
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 450px;
+    }
+
+     .menu-footer li a{
+     color: white;
+     text-decoration: none;
+     font-size: 25px;
+                }
+
+    .btnfooter {
+    margin-left: 400px;
+    margin-top: 15px;
+    text-align: center;
+    }          
+    .btnfooter1 {
+    display: flex;
+    flex-flow: column;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 40px; 
+    padding: 3px 10px 3px 10px;
+    margin-top: 15px;
+                }
+
+    @media (min-width:760px) and (max-width:835px) {
+
+    #logo {
+    width: 200px;
+        }
+                                                                                
+    .menu {
+    margin-top: 20px;
+         }
+
+    .oneblock {
+    margin-bottom: 20px;
+    }
+
+    .banner1 {
+    object-fit: contain;
+    width: 400px;
+    height: 400px;
+    }
+
+    h1 {
+    font-size: 35px;
+    }
+
+    .twoblock {
+    flex-flow: column;
+    }
+
+    .blocks {
+    text-align: center;
+    }
+
+    h2 {
+    font-size: 30px;
+    }
+
+    .text2 {
+    width: 500px;
+    font-size: 25px;
+    margin-left: 170px;
+    }
+
+    .btnblock {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    }
+
+    .btn2 {
+    font-size: 25px;
+    }
+    
+    .threeblock {
+    display: flex;
+    flex-flow: column;
+    }
+
+    .depo1 {
+    flex-flow: column;
+    width: 820px;
+    margin-left: 0;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .depo2 {
+    flex-flow: column;
+    margin-left: 0;
+    margin-top: 0;
+    width: 820px;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .text3 {
+    width: 550px;
+    font-size: 25px;
+    margin-top: 20px;
+    }
+
+    .name {
+    text-align: center;
+    font-size: 25px;
+    margin-left: 0;
+    }
+
+    .banner3 {
+    width: 150px;
+    margin-top: 40px;
+    }
+
+    .fourblock {
+    padding-bottom: 100px;
+    }
+
+    h4 {
+    text-align: center;
+    padding-left: 0;
+    }
+
+    .conteudo {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .rectangle {
+    width: 400px;
+    height: 200px;
+    margin-left: 0;
+    }
+
+    h5 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 0;
+    }
+
+    .text4 {
+    text-align: center;
+    font-size: 25px;
+    width: 400px;
+    margin: 10px 0 60px 0;
+   
+    }
+
+    .lastbtn {
+    margin-left: 280px;
+    margin-top: 20px;
+    }
+
+    .btn3 {
+    font-size: 30px;
+    }
+
+    footer {
+        display: flex;
+        padding-bottom: 0;
+        }
+        
+        #logofooter {
+            object-fit: contain;
+            width: 250px;
+            height: 120px;
+            padding-left: 10px;
+                    }
+        
+        .menu-footer {
+        margin-left: 80px;
+        }
+         .menu-footer li a{
+         font-size: 25px;
+                    }
+        
+        .btnfooter {
+        margin-left: 30px;
+        margin-top: 10px;
+        }
+        
+        .btnfooter1 {
+        margin-left: 70px;
+                    }
+
+        }
+
+@media (min-width:360px) and (max-width:391px) {
+
+header {
+display: flex;
+flex-flow: column;
+justify-content: center;
+align-items: center;
+height: 120px;
+    }
+
+#logo {
+margin-top: 30px;
+margin-right: 60px;
+width: 180px;
+height: 80px;
+        }
+        
+.menu {
+margin-top: 15px;
+margin-bottom: 15px;
+margin-left: 40px;
+        }
+        
+.menu li a {
+        
+font-size: 18px;
+            } 
+
+.oneblock {
+flex-flow: column;
+justify-content: center;
+align-items: center;
+margin-bottom: 15px;
+}
+
+.title1 {
+margin-top: 40px;
+}
+
+h1 {
+text-align: center;
+font-size: 40px;
+}
+
+.text1 {
+text-align: center;
+}
+
+.btninicio {
+margin-top: 40px;
+margin-left: 20px;
+}
+
+.btn {
+font-size: 30px;
+}
+
+.banner1 {
+object-fit: contain;
+width: 320px;
+height: 320px;
+margin-top: 20px;
+margin-left: 50px;
+        }
+
+.twoblock {
+flex-flow: column;
+padding-bottom: 0;
+}
+
+.blocks {
+text-align: center;
+margin-bottom: 80px;
+}
+
+.banner2 {
+object-fit: contain;
+width: 300px;
+height: 300px;
+justify-content: center;
+align-items: center;
+    }
+
+.text2 {
+font-size: 20px;
+margin-top: 20px;
+}
+
+.btnblock {
+margin-top: 30px;
+}
+
+.btn2 {
+font-size: 25px;
+}
+
+.threeblock {
+display: flex;
+flex-flow: column;
+}
+
+h3 {
+text-align: center;
+font-size: 30px;
+padding: 0 5px 0 5px;
+margin-left: 0;
+margin-top: 50px;
+}
+
+.depo1 {
+flex-flow: column;
+justify-content: center;
+align-items: center;
+width: 380px;
+margin-left: 0;
+margin-top: 10px;
+}
+
+.depo2 {
+flex-flow: column;
+justify-content: center;
+align-items: center;
+width: 380px;
+margin-left: 0;
+margin-top: 0;
+}
+
+.text3 {
+padding-bottom: 5px;
+}
+
+.name {
+text-align: center;
+margin-left: 0;
+}
+
+.banner3 {
+margin-top: 40px;
+}
+
+.fourblock {
+padding-bottom: 80px;
+}
+
+h4 {
+text-align: center;
+padding-left: 0;
+padding-bottom: 20px;
+    }
+
+.conteudo {
+flex-flow: column;
+justify-content: center;
+align-items: center;
+}
+
+.rectangle {
+margin-left: 0;
+}
+
+h5 {
+text-align: center;
+font-size: 25px;
+margin-left: 0;
+margin-top: 15px;
+}
+
+.text4 {
+text-align: center;
+width: 300px;
+margin-left: 0;
+margin-bottom: 30px;
+}
+
+.lastbtn {
+margin-left: 80px;
+margin-top: 30px;
+}
+
+.btn3 {
+font-size: 25px;
+}
+
+footer {
+display: flex;
+flex-flow: column;
+display: flex;
+justify-content: center;
+align-items: center;
+       }
+    
+#logofooter {
+width: 220px;
+height: 90px;
+margin-left: 0;
+            }
+    
+.menu-footer {
+margin-left: 0;
+margin-top: 10px;
+             }
+
+.btnfooter {
+margin-left: 0;
+           }
+
+.menu-footer li a{
+font-size: 20px;
+                 }
+.btnfooter1 {
+width: 230px;
+padding: 5px 2px 5px 2px;
+font-size: 15px;
+           }
+
+        }
+          
+                    
+    

@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu'; 
+}
+
+
+header{
+    display: flex;
+    background-color: #2E948A;
+    justify-content: space-between;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    }
+    
+    
+    #logo {
+    
+        background-color: #2E948A; 
+        object-fit: contain;
+        margin-left: 30px;
+    }
+    
+    .menu {
+    
+        display: flex;
+        list-style: none;
+        flex-direction: row-reverse;
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 60px;
+    }
+    
+    .menu li a {
+    
+        color: white;
+        font-weight: 700;
+        text-decoration: none;
+        font-size: 18px;
+        padding-left: 10px; 
+    
+    }
+
+    h1 {
+    color: #FF4081;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: 150px;
+    }
+
+    .nome {
+    border: 1px solid #686868;
+    border-radius: 10px;
+    height: 40px;
+    width: 700px;
+        
+         
+        }
+        
+   .name {
+    padding-top: 40px;
+    padding-left: 150px;
+        
+        }
+    
+   .email {
+    border: 1px solid #686868;
+    border-radius: 10px;
+    height: 40px;
+    width: 700px;
+                
+                 
+        }
+                
+    .em {
+    padding-top: 15px;
+    padding-left: 150px;
+                
+        }
+    
+.msg {
+border: 1px solid #686868;
+border-radius: 5px;
+height: 330px;
+width: 700px;
+                     
+    }
+            
+.mensagem {
+            
+padding-top: 15px;
+padding-left: 150px;
+            
+        }
+
+.btn {
+background-color: #FF4081;
+text-align: center;
+border-radius: 40px;
+width: 150px;
+padding: 10px 30px 10px 30px;
+margin-top: 40px;
+margin-left: 150px;
+cursor: pointer;
+}
+
+.btn1 {
+color: white;
+text-decoration: none;
+font-weight: 700;
+}
+
+.conteudo {
+display: flex;
+padding-bottom: 60px;
+}
+
+.banner {
+margin-left: 150px;
+}
+
+footer {
+    display: flex;
+    background-color: #2E948A;
+    padding-bottom: 15px;
+    }
+    
+    #logofooter {
+        object-fit: contain;
+        width: 250px;
+        height: 120px;
+        margin-left: 40px;
+        margin-top: 10px;
+                }
+    
+    .menu-footer {
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 450px;
+    }
+
+     .menu-footer li a{
+     color: white;
+     text-decoration: none;
+     font-size: 25px;
+                }
+
+    .btnfooter {
+    margin-left: 400px;
+    margin-top: 15px;
+    text-align: center;
+    }          
+    .btnfooter1 {
+    display: flex;
+    flex-flow: column;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 40px; 
+    padding: 3px 10px 3px 10px;
+    margin-top: 15px;
+                }
+
+@media (min-width:760px) and (max-width:835px) {
+
+#logo {
+width: 200px;
+      }
+
+.menu {
+margin-top: 20px;
+}
+
+.conteudo {
+display: flex;
+flex-flow: column;
+}
+
+h1 {
+margin-top: 70px;
+margin-left: 40px;
+}
+.nome {
+width: 600px;
+}
+
+.name {
+padding-left: 40px;
+}
+
+.email {
+width: 600px;
+}
+
+.em {
+padding-left: 40px;
+}
+
+.msg {
+width: 600px;
+}
+.mensagem {
+padding-left: 40px;
+}
+
+.btn {
+margin-left: 40px;
+}
+
+.banner {
+object-fit: contain;
+width: 350px;
+height: 300px;
+
+}
+
+footer {
+display: flex;
+padding-bottom: 0;
+}
+
+#logofooter {
+    object-fit: contain;
+    width: 250px;
+    height: 120px;
+    padding-left: 10px;
+            }
+
+.menu-footer {
+margin-left: 80px;
+}
+ .menu-footer li a{
+ font-size: 25px;
+            }
+
+.btnfooter {
+margin-left: 30px;
+margin-top: 10px;
+}
+
+.btnfooter1 {
+margin-left: 70px;
+                }
+}
+
+@media (min-width:360px) and (max-width:391px) {
+
+    header {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        height: 120px;
+    }
+    #logo {
+        margin-top: 30px;
+        margin-right: 60px;
+        width: 180px;
+        height: 80px;
+    }
+
+    .menu {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    }
+
+    .menu li a {
+
+    font-size: 18px;
+    }
+  
+    h1 {
+    margin-top: 30px;
+    margin-left: 100px;
+    }
+
+    
+    .nome {
+    width: 300px;
+    }
+    
+    .name {
+    padding-top: 20px;
+    padding-left: 40px;
+    }
+
+    .email {
+    width: 300px;
+    }
+
+    .em {
+    padding-left: 40px;
+    }
+
+    .msg {
+    width: 300px;
+    }
+
+    .mensagem {
+    padding-left: 40px;
+    }
+
+    .btn {
+    margin-left: 110px;
+    }
+    
+    .twoblock {
+    display: none;
+    }
+
+    footer {
+        display: flex;
+        flex-flow: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        }
+        
+        #logofooter {
+            width: 220px;
+            height: 90px;
+            margin-left: 0;
+        }
+        
+        .menu-footer {
+        margin-left: 0;
+        margin-top: 10px;
+        }
+
+        .btnfooter {
+        margin-left: 0;
+        }
+
+        .menu-footer li a{
+            font-size: 20px;
+        }
+        .btnfooter1 {
+            width: 230px;
+            padding: 5px 2px 5px 2px;
+            font-size: 15px;
+        
+            }
+
+  
+}

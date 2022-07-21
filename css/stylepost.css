@@ -1,0 +1,401 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu'; 
+}
+
+header{
+    display: flex;
+    background-color: #2E948A;
+    justify-content: space-between;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    }
+    
+    
+    #logo {
+    
+        background-color: #2E948A; 
+        object-fit: contain;
+        margin-left: 30px;
+    }
+    
+    .menu {
+    
+        display: flex;
+        list-style: none;
+        flex-direction: row-reverse;
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 60px;
+    }
+    
+    .menu li a {
+    
+        color: white;
+        font-weight: 700;
+        text-decoration: none;
+        font-size: 18px;
+        padding-left: 10px; 
+    
+    }
+    
+    h1 {
+    color: #FF4081;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 100px;
+    text-align: center;
+    
+    }
+
+    span {
+    margin-left: 700px;
+    color: #9D9D9D;
+    }
+
+    .rectangle {
+    width: 1100px;
+    height: 500px;
+    border: 1px solid  #C4C4C4;
+    background-color: #C4C4C4;
+    margin-left: 225px;
+    margin-top: 50px;
+                }
+
+   .text {
+   width: 1100px;
+   margin-top: 40px;
+   margin-left: 225px;
+   }
+
+   .text p {
+  padding-bottom: 30px;
+   }
+
+   h2 {
+   color: #419488;
+   margin-bottom: 20px;
+   }
+
+   .twoblock {
+  background-color: #F6F6F6;
+  margin-top: 60px;
+  
+   }
+
+   .conteudo {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding-bottom: 80px;
+   }
+
+   .banner {
+  object-fit: contain;
+  width: 400px;
+  height: 300px;
+   }
+
+  .banner1 {
+    object-fit: contain;
+    width: 400px;
+    height: 300px;
+  }
+
+.block {
+padding: 50px 0px 0 30px;
+
+}
+
+   h3 {
+ color: #FF4081;
+ font-weight: 500;
+ font-size: 40px;
+ text-align: center;
+ padding-top: 40px;
+   }
+
+   h4 {
+    color: #FF4081;
+    font-size: 20px;
+    text-align: center;
+    width: 400px;
+    margin-top: 20px;
+   }
+
+   .text2 {
+    width: 400px;
+    text-align: center;
+    margin-top: 20px;
+   }
+
+   .btn {
+ background-color: #FF4081;
+ text-decoration: none;
+ margin-top: 30px;
+ text-align: center;
+ border-radius: 40px;
+ margin-left: 120px;
+ width: 150px;
+ padding: 10px 5px 10px 5px;
+ cursor: pointer;
+   }
+   
+  .btn1 {
+color: white;
+text-decoration: none;
+  }
+
+  footer {
+    display: flex;
+    background-color: #2E948A;
+    padding-bottom: 15px;
+    }
+    
+    #logofooter {
+        object-fit: contain;
+        width: 250px;
+        height: 120px;
+        margin-left: 40px;
+        margin-top: 10px;
+                }
+    
+    .menu-footer {
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 450px;
+    }
+
+     .menu-footer li a{
+     color: white;
+     text-decoration: none;
+     font-size: 25px;
+                }
+
+    .btnfooter {
+    margin-left: 400px;
+    margin-top: 15px;
+    text-align: center;
+    }          
+    .btnfooter1 {
+    display: flex;
+    flex-flow: column;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 40px; 
+    padding: 3px 10px 3px 10px;
+    margin-top: 15px;
+                }
+
+@media (min-width:760px) and (max-width:835px) {
+
+#logo {
+width: 200px;
+      }
+                                      
+.menu {
+margin-top: 20px;
+      }
+              
+h1 {
+font-size: 40px;
+margin-top: 50px;
+}
+span {
+margin-left: 320px;
+}
+
+.rectangle {
+width: 550px;
+height: 300px;
+margin-left: 150px;
+margin-top: 25px;
+}
+
+.text {
+width: 550px;
+font-size: 20px;
+margin-left: 150px;
+}
+
+.conteudo {
+display: flex;
+flex-flow: column;
+justify-content: center;
+align-items: center;
+}
+
+h4 {
+font-size: 28px;
+}
+
+.text2 {
+font-size: 25px;
+}
+
+.btn {
+width: 200px;
+font-size: 25px;
+}
+
+footer {
+  display: flex;
+  padding-bottom: 0;
+  }
+  
+  #logofooter {
+      object-fit: contain;
+      width: 250px;
+      height: 120px;
+      padding-left: 10px;
+              }
+  
+  .menu-footer {
+  margin-left: 80px;
+  }
+   .menu-footer li a{
+   font-size: 25px;
+              }
+  
+  .btnfooter {
+  margin-left: 30px;
+  margin-top: 10px;
+  }
+  
+  .btnfooter1 {
+  margin-left: 70px;
+                  }
+
+}
+
+@media (min-width:360px) and (max-width:391px) {
+
+  header {
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+      height: 120px;
+  }
+  #logo {
+      margin-top: 30px;
+      margin-right: 60px;
+      width: 180px;
+      height: 80px;
+  }
+
+  .menu {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 40px;
+  }
+
+  .menu li a {
+
+  font-size: 18px;
+  }
+
+  h1 {
+  font-size: 30px;
+  margin-top: 50px;
+  }
+
+  span {
+  margin-left: 100px;
+  }
+
+  .rectangle {
+    width: 300px;
+    height: 150px;
+    margin-left: 45px;
+    margin-top: 30px;
+  }
+
+  .text {
+   width: 300px;
+   font-size: 18px;
+   margin-left: 45px;
+  }
+
+  .conteudo {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  }
+  
+
+  h3 {
+  font-size: 30px;
+  font-weight: 700;
+  }
+
+  h4 {
+  width: 350px;
+  font-size: 25px;
+  padding-right: 30px;
+  }
+
+  .banner {
+  width: auto;
+  }
+
+  .banner1 {
+  object-fit: contain;
+  width: 350px;
+  height: 300px;
+  padding-right: 15px;
+  }
+
+  .text2 {
+    font-size: 20px;
+    width: 350px;
+    padding-right: 30px;
+
+  }
+
+  .btn {
+    width: 200px;
+    font-size: 25px;
+    margin-left: 60px;
+  }
+
+  footer {
+    display: flex;
+    flex-flow: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    }
+    
+    #logofooter {
+        width: 220px;
+        height: 90px;
+        margin-left: 0;
+    }
+    
+    .menu-footer {
+    margin-left: 0;
+    margin-top: 10px;
+    }
+
+    .btnfooter {
+    margin-left: 0;
+    }
+
+    .menu-footer li a{
+        font-size: 20px;
+    }
+    .btnfooter1 {
+        width: 230px;
+        padding: 5px 2px 5px 2px;
+        font-size: 15px;
+    
+        }
+}
