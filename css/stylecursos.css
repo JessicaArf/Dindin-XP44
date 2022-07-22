@@ -68,14 +68,18 @@ margin-left: 130px;
 width: 1300px;
 padding-bottom: 30px;
 box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
 
+.oneblock2 {
+padding-bottom: 60px;
 }
 
 .twoblock {
 margin-top: 50px;
 margin-left: 50px;
        }
-    
+
+        
 .text {
 margin-top: 25px;
 width: 800px;
@@ -166,6 +170,10 @@ margin-left: 0;
 justify-content: center;
 align-items: center;
 
+}
+
+.oneblock2 {
+padding-bottom: 0;
 }
 
 .twoblock {
@@ -275,6 +283,10 @@ margin-left: 0;
 object-fit: contain;
 width: 300px;
 height: 300px;
+}
+
+.oneblock2 {
+padding-bottom: 0;
 }
 
 .twoblock {
